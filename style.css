@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fef1e8;
+}
+body{
+    overflow-x: hidden;
+}
+.contaner{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-top: 10vh;
+    height: 178vh;
+}
+.cart-contaner{
+    width: 26%;
+    height: 41vh;
+    background: #fff;
+    margin-left: 62%;
+    position: fixed;
+    border-radius: 20px;
+    margin-top: -5%; 
+}
+.cart-contaner h1{
+    position: absolute;
+    margin-top: 33px;
+    background-color: #ffffff00;
+    color: #b24826;
+    padding-left: 30px;
+}.cart-contaner p{
+    position: absolute;
+    margin-top: 33px;
+    background-color: #ffffff00;
+    color: #b24826;
+    padding-top: 210px;
+    padding-left: 72px;
+}
+.all-cont{
+    margin-top: -30px;
+    margin-left: -7px;
+}
+.all-cont .first-cont img{
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 30px;
+}
+.active{
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+    margin-left: -202px;
+    font-size: 15px;
+}
